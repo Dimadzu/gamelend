@@ -1,0 +1,62 @@
+.hero {
+  min-height: 1086px;
+  background: #ccc url('../images/hero_bg.jpg') center/cover no-repeat;
+  padding-top: 112px;
+  &_header{
+    margin-top: 60px;
+    height: 650px;
+    background: #ccc url('../images/hero_header_bg.jpg') center/cover no-repeat;
+    padding: 70px 0 0 40px;
+  }
+  &_title{
+    font-family: $ff-maried;
+    font-size: 144px;
+    color: #ffc600;
+    padding: 0;
+    margin: 0;
+    span{
+      color: white;
+    }
+    &_header{
+      font-size: 47px;
+      padding: 0;
+    }
+  }
+  &_description{
+    font-size: 18px;
+    color: white;
+    font-family: $ff-maried;
+    margin: 0;
+    &_awesome{
+      font-size: 47px;
+      margin: 0;
+    }
+  }
+  &_title_h2{
+    font-size: 20px;
+    color: #ffc600;
+    font-family: $ff-maried;
+    margin-top: 40px;
+
+  }
+}
+.nav{
+  margin-top: 60px;
+  &_link{
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffc600;
+    font-family: $ff-maried;
+    font-weight: 100;
+    &_active{
+      color: white;
+    }
+
+  }
+}
+
+
+
+
+
