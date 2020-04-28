@@ -66,3 +66,37 @@
     }
 
 }
+.description_jostic{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: inherit;
+    padding: 70px 100px 60px 100px;
+    .wraper{
+        width: 30%;
+        position: relative;
+        text-align: center;
+        &_icons{
+            @include centerer-x();
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid #ffa800;
+            background-color: #e8e8e8;
+            position: relative;
+            &_img{
+                @include centerer-xy();
+            }
+        }
+        &_title{
+            font-size: 15px;
+            color: darken($color: #949494, $amount: 30);
+        }
+        &_desc{
+            color: #949494;
+            font-size: 12px; 
+        }
+
+    }
+
+
+}

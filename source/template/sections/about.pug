@@ -13,7 +13,13 @@ section.about
                 p.description_about_text_bottom Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu. Maecenas est risus, tristique volutpat sagittis vel, feugiat consectetur diam. Suspendisse justo sem, molestie tincidunt rhoncus vel, molestie ut ligula. Mauris vitae ullamcorper odio. Mauris id enim gravida, tempor velit non, vehicula lacus. Sed rutrum tempus urna, sed aliquam lectus egestas eu
         .description_jostic
             - var title=['App Development', 'Game Design', 'Content Creation']
-        each item in title
-            h3=item    
+            each item in title
+                .wraper
+                    .wraper_icons
+                        img.wraper_icons_img(src="../images/jostik.jpg")
+                    h3.wraper_title=item
+                    p.wraper_desc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.
+                    p.wraper_desc Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis molestie dignissim. Nulla pellentesque et nisi et euismod. Pellentesque quis tristique magna.    
+
 
                     
