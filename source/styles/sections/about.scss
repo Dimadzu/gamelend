@@ -39,5 +39,30 @@
     &_text{
         width: 55%;
     }
+    &_text{
+        padding: 40px 0;
+        position: relative;
+        .italic{
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 200;
+            color: darken($color: #949494, $amount: 30);
+        }
+        .description_about_text_bottom{
+            color: #949494;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 200;
+        }
+        .riska{
+            position: absolute;
+            height: 50%;
+            width: 2px;
+            background-color: #949494;
+            left: -20px;
+            margin-top: 5%;
+
+        }
+    }
 
 }
